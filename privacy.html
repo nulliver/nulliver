@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — My Kid Battery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #0D1133;
+      --pink:   #E040A0;
+      --violet: #8B2BE2;
+      --green:  #39E55A;
+      --peach:  #F0C8B0;
+      --white:  #FFFFFF;
+    }
+
+    body {
+      background-color: var(--navy);
+      color: var(--white);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .nav-brand {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: 1rem;
+      color: var(--white);
+      text-decoration: none;
+      opacity: 0.85;
+    }
+
+    nav a.back {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.45);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    nav a.back:hover { color: var(--peach); }
+
+    .page-header {
+      text-align: center;
+      padding: 64px 24px 48px;
+      position: relative;
+    }
+
+    .page-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 50% 60% at 50% 0%, rgba(139,43,226,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .page-header h1 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      background: linear-gradient(135deg, var(--white) 30%, var(--peach) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+
+    .page-header .updated {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.3px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--pink), var(--violet));
+      border-radius: 2px;
+      margin: 0 auto 56px;
+    }
+
+    .content {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(224,64,160,0.15);
+      border-radius: 16px;
+      padding: 28px 28px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover {
+      border-color: rgba(224,64,160,0.35);
+    }
+
+    .card-icon {
+      flex-shrink: 0;
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(139,43,226,0.35), rgba(224,64,160,0.25));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+    }
+
+    .card-body h2 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--peach);
+      margin-bottom: 8px;
+    }
+
+    .card-body p {
+      font-size: 0.93rem;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .highlight-card {
+      background: linear-gradient(135deg, rgba(57,229,90,0.08), rgba(57,229,90,0.04));
+      border-color: rgba(57,229,90,0.22);
+    }
+
+    .highlight-card:hover {
+      border-color: rgba(57,229,90,0.42);
+    }
+
+    .highlight-card .card-icon {
+      background: linear-gradient(135deg, rgba(57,229,90,0.3), rgba(57,229,90,0.15));
+    }
+
+    .highlight-card .card-body h2 {
+      color: var(--green);
+    }
+
+    .contact-section {
+      text-align: center;
+      padding: 8px 0 0;
+    }
+
+    .contact-section p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 8px;
+    }
+
+    .contact-section a {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--pink);
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .contact-section a:hover { opacity: 0.75; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html">My Kid Battery</a>
+    <a class="back" href="index.html">← Back</a>
+  </nav>
+
+  <header class="page-header">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 2026</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <main class="content">
+
+    <div class="card highlight-card">
+      <div class="card-icon">🔒</div>
+      <div class="card-body">
+        <h2>No Data Collected</h2>
+        <p>My Kid Battery does not collect, store, transmit, or share any personal information.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📷</div>
+      <div class="card-body">
+        <h2>Camera Access</h2>
+        <p>Used only to take photos. Photos are processed locally on your device and never leave it.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🖼️</div>
+      <div class="card-body">
+        <h2>Photo Library Access</h2>
+        <p>Used only to save your edited photos to your device. We only request "Add Photos Only" permission — we cannot read your existing photos.</p>
+      </div>
+    </div>
+
+    <div class="card highlight-card">
+      <div class="card-icon">✅</div>
+      <div class="card-body">
+        <h2>Everything Stays on Your Device</h2>
+        <p>All photo processing happens on your device. No images or data are ever sent to any servers.</p>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <p>Questions? Reach us at</p>
+      <a href="mailto:support@mykidbattery.com">support@mykidbattery.com</a>
+    </div>
+
+  </main>
+
+</body>
+</html>
