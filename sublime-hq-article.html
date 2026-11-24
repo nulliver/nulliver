@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sublime HQ</title>
+<meta name="description" content="Sublime HQ Pty Ltd, the Australian developer of Sublime Text and Sublime Merge: history, products, staff, business model, ecosystem and community.">
+<style>
+:root{
+  --bg:#fbfbfa; --paper:#ffffff; --fg:#1f2328; --muted:#5d636b; --line:#d9dcdf;
+  --link:#1f5fa8; --box:#f3f4f5; --mark:#c25e0a;
+  --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#16181b; --paper:#1d2024; --fg:#e4e6e9; --muted:#9aa1aa; --line:#33383e;
+  --link:#7fb2ec; --box:#24282d; --mark:#f0a35a; color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 var(--serif);
+  padding:32px max(16px,env(safe-area-inset-right,0px)) 64px max(16px,env(safe-area-inset-left,0px))}
+.page{max-width:1000px;margin:0 auto;background:var(--paper);border:1px solid var(--line);padding:28px clamp(16px,4vw,44px) 40px}
+a{color:var(--link);text-decoration:none}
+a:hover,a:focus-visible{text-decoration:underline}
+h1{font:400 34px/1.2 var(--serif);margin:0 0 4px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.tagline{font:14px/1.4 var(--sans);color:var(--muted);margin:6px 0 22px}
+h2{font:400 25px/1.25 var(--serif);margin:36px 0 10px;padding-bottom:4px;border-bottom:1px solid var(--line);scroll-margin-top:12px;clear:both}
+h3{font:700 17px/1.3 var(--sans);margin:24px 0 6px;scroll-margin-top:12px}
+p{margin:0 0 14px}
+sup.ref{font:600 11px/0 var(--sans);vertical-align:super;margin-left:1px}
+sup.ref a{color:var(--link)}
+sup.ref a::before{content:"["}
+sup.ref a::after{content:"]"}
+code{font:14px var(--mono);background:var(--box);padding:1px 4px;border-radius:3px}
+.infobox{float:right;width:300px;margin:0 0 18px 24px;border:1px solid var(--line);background:var(--box);font:14px/1.45 var(--sans)}
+.infobox caption{font:700 17px/1.3 var(--sans);padding:10px 10px 6px;text-align:center;caption-side:top}
+.infobox table{width:100%;border-collapse:collapse}
+.infobox th,.infobox td{text-align:left;vertical-align:top;padding:6px 10px;border-top:1px solid var(--line)}
+.infobox th{width:38%;font-weight:600}
+.infobox .wm{display:block;text-align:center;padding:14px 10px 4px;font:600 13px/1.2 var(--mono);color:var(--mark);letter-spacing:.04em}
+@media (max-width:720px){.infobox{float:none;width:100%;margin:0 0 20px}}
+.toc{display:inline-block;border:1px solid var(--line);background:var(--box);padding:12px 18px 12px 14px;margin:6px 0 18px;font:14px/1.55 var(--sans);max-width:100%}
+.toc b{display:block;text-align:center;margin-bottom:6px}
+.toc ol{margin:0;padding-left:20px}
+.toc ol ol{padding-left:18px}
+.tbl{overflow-x:auto;margin:10px 0 18px}
+table.data{border-collapse:collapse;font:14.5px/1.45 var(--sans);min-width:560px;width:100%}
+table.data th,table.data td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+table.data th{background:var(--box);font-weight:600}
+table.data td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{font:14px/1.5 var(--sans);color:var(--muted);font-style:italic;margin:-4px 0 12px}
+ol.refs{font:14px/1.55 var(--sans);padding-left:26px}
+ol.refs li{margin-bottom:4px}
+ol.refs li:target{background:var(--box)}
+.intent{border:1px solid var(--line);border-left:4px solid var(--mark);background:var(--box);padding:12px 16px;margin:0 0 22px;font:15px/1.55 var(--sans)}
+.intent p{margin:0}
+.intent b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+footer{margin-top:28px;padding-top:12px;border-top:1px solid var(--line);font:13px/1.5 var(--sans);color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+<article>
+<aside class="intent" aria-label="About this article"><b>About this article</b><p>A more detailed and informative attempt to tell the history of Sublime Text, showing that, far from being dead, it has stayed alive and successfully overcome challenges with the help of a passionate community of users. In short, this is what I would like the Wikipedia article on Sublime Text to be.</p></aside>
+<h1>Sublime HQ</h1>
+<p class="tagline">Australian software company, developer of Sublime Text and Sublime Merge</p>
+
+<div class="infobox">
+<table>
+<caption>Sublime HQ Pty Ltd</caption>
+<tbody>
+<tr><td colspan="2"><span class="wm">SUBLIME HQ</span></td></tr>
+<tr><th>Type</th><td>Proprietary limited company (Pty Ltd)</td></tr>
+<tr><th>Founder</th><td>Jon Skinner</td></tr>
+<tr><th>Founded</th><td>c. 2007 (first public release January 2008)</td></tr>
+<tr><th>Headquarters</th><td>Sydney, Australia</td></tr>
+<tr><th>Products</th><td>Sublime Text<br>Sublime Merge</td></tr>
+<tr><th>Employees</th><td>7 (September 2020)<br>8 (November 2022)</td></tr>
+<tr><th>Funding</th><td>Self-funded; revenue from software licenses</td></tr>
+<tr><th>Website</th><td><a href="https://www.sublimetext.com">sublimetext.com</a><br><a href="https://www.sublimemerge.com">sublimemerge.com</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<p><b>Sublime HQ Pty Ltd</b> is a software company based in Sydney, Australia, that develops the proprietary text editor <b>Sublime Text</b> and the Git client <b>Sublime Merge</b>. The company was founded by Jon Skinner, who began development of Sublime Text in the mid-2000s and released version 1.0 in January 2008.<sup class="ref"><a href="#r1">1</a></sup><sup class="ref"><a href="#r2">2</a></sup> Both products are cross-platform, run natively on Windows, macOS and Linux, and are sold under perpetual licenses that include three years of updates.<sup class="ref"><a href="#r12">12</a></sup><sup class="ref"><a href="#r17">17</a></sup></p>
+<p>The company is privately owned and has no outside investors; its income comes from the sale of licenses. It has had a small staff throughout its history, numbering three known employees in 2017 and eight in 2022. Much of the surrounding ecosystem, including the bundled language definitions, the Package Control package manager and the LSP client, is developed in public repositories with substantial volunteer participation.</p>
+
+<nav class="toc" aria-label="Contents">
+<b>Contents</b>
+<ol>
+<li><a href="#history">History</a>
+  <ol>
+  <li><a href="#origins">Origins and Sublime Text 1 (2007–2010)</a></li>
+  <li><a href="#st2">Sublime Text 2 (2011–2012)</a></li>
+  <li><a href="#st3">Sublime Text 3 (2013–2019)</a></li>
+  <li><a href="#merge-launch">Sublime Merge (2018)</a></li>
+  <li><a href="#st4">Sublime Text 4 (2019–2021)</a></li>
+  <li><a href="#recent">2022–present</a></li>
+  </ol></li>
+<li><a href="#company">Company</a>
+  <ol>
+  <li><a href="#staff">Staff</a></li>
+  <li><a href="#business">Business model and licensing</a></li>
+  <li><a href="#comms">Communication practices</a></li>
+  </ol></li>
+<li><a href="#founder">Views of the founder</a></li>
+<li><a href="#products">Products</a>
+  <ol>
+  <li><a href="#st">Sublime Text</a></li>
+  <li><a href="#sm">Sublime Merge</a></li>
+  </ol></li>
+<li><a href="#ecosystem">Ecosystem</a>
+  <ol>
+  <li><a href="#packages">Default packages</a></li>
+  <li><a href="#pc">Package Control</a></li>
+  <li><a href="#lsp">Language Server Protocol support</a></li>
+  </ol></li>
+<li><a href="#volunteers">Community volunteers</a></li>
+<li><a href="#source">Source code availability</a></li>
+<li><a href="#community">Community relations</a></li>
+<li><a href="#releases">Release history</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+</nav>
+
+<h2 id="history">History</h2>
+
+<h3 id="origins">Origins and Sublime Text 1 (2007–2010)</h3>
+<p>The project was announced on a development blog in November 2007. The announcement stated that the founder had left a job at Google to build a text editor and a company around it.<sup class="ref"><a href="#r1">1</a></sup> Sublime Text 1.0, a Windows-only release, followed on 18 January 2008.<sup class="ref"><a href="#r2">2</a></sup> Two blog posts published in April 2008 explained the choice of Python as the editor's extension language.<sup class="ref"><a href="#r3">3</a></sup> Versions 1.2, 1.3 and 1.4 were released between June 2009 and September 2010.<sup class="ref"><a href="#r1">1</a></sup></p>
+
+<h3 id="st2">Sublime Text 2 (2011–2012)</h3>
+<p>A public alpha of Sublime Text 2, which added support for macOS and Linux, was released on 28 January 2011, followed by a beta in July 2011 and the final 2.0 release on 26 June 2012.<sup class="ref"><a href="#r4">4</a></sup> Package Control, a third-party package manager written by Will Bond, first appeared in 2011.<sup class="ref"><a href="#r8">8</a></sup></p>
+
+<h3 id="st3">Sublime Text 3 (2013–2019)</h3>
+<p>The Sublime Text 3 beta was announced on 29 January 2013, together with an increase in the license price from US$59 to US$70.<sup class="ref"><a href="#r5">5</a></sup> In the same year the company hired Kari, who handles sales and support and wrote the February 2013 post on upgrade pricing.<sup class="ref"><a href="#r6">6</a></sup> The public beta opened in June 2013.<sup class="ref"><a href="#r7">7</a></sup></p>
+<p>Will Bond joined the company in January 2016; the build 3103 release notes welcomed him as the author of Package Control.<sup class="ref"><a href="#r8">8</a></sup> Build 3124 (September 2016) added a menu command to install Package Control.<sup class="ref"><a href="#r8">8</a></sup> The official Discord server opened in early 2017. Sublime Text 3.0 (build 3143) left beta on 13 September 2017, more than four years after the beta began.<sup class="ref"><a href="#r9">9</a></sup> Later 3.x releases introduced the Adaptive theme (October 2017), a JSON-based color scheme format, <code>.sublime-color-scheme</code> (build 3149, October 2017), version 3.1 (May 2018) and version 3.2 (March 2019), which added Git integration and incremental diff markers developed alongside Sublime Merge.<sup class="ref"><a href="#r10">10</a></sup><sup class="ref"><a href="#r11">11</a></sup></p>
+
+<h3 id="merge-launch">Sublime Merge (2018)</h3>
+<p>On 20 September 2018 the company released Sublime Merge, a Git client built on the same internal application framework as Sublime Text.<sup class="ref"><a href="#r12">12</a></sup> It had been developed without public announcement during 2018, and Sublime Text development builds paused during that period. Sublime Merge introduced the licensing model that the company later applied to Sublime Text: a perpetual license with three years of updates.<sup class="ref"><a href="#r12">12</a></sup> A roadmap post followed in October 2018.<sup class="ref"><a href="#r13">13</a></sup></p>
+
+<h3 id="st4">Sublime Text 4 (2019–2021)</h3>
+<p>The first public development build of Sublime Text 4, build 4050, was distributed on 12 November 2019 exclusively through the company's Discord server, where testers were asked not to share the download links elsewhere. Development builds required a valid license key, and the beta continued on Discord until the stable release. Sublime Merge 2 was released on 26 May 2020.<sup class="ref"><a href="#r14">14</a></sup></p>
+<p>Sublime Text 4 (build 4107) was released on 21 May 2021. Its main features were GPU rendering, multi-selection of tabs, a rewritten context-aware auto-complete system, a Python 3.8 plugin environment alongside the existing Python 3.3 one, built-in TypeScript, JSX and TSX syntax definitions, and native builds for Apple Silicon and Linux ARM64. Support for OS X 10.7 and 10.8 and for Windows XP and Vista was dropped.<sup class="ref"><a href="#r17">17</a></sup> The release moved Sublime Text to the Sublime Merge licensing terms.<sup class="ref"><a href="#r17">17</a></sup></p>
+
+<h3 id="recent">2022–present</h3>
+<p>Stable builds 4142 (November 2022), 4151 (August 2023), 4166 (November 2023), 4180 (August 2024) and 4189 (December 2024) followed, each announced on the blog with a changelog.<sup class="ref"><a href="#r18">18</a></sup> Build 4200, released on 21 May 2025, announced the phase-out of the Python 3.3 plugin environment, a plan to replace Python 3.8 with Python 3.13, a Python support lifecycle of roughly five years, and new minimum system requirements of macOS 10.13 and Windows 10.<sup class="ref"><a href="#r19">19</a></sup> Development builds using Python 3.13 (build 4201 and later) were distributed through the Discord server from late 2025. In December 2025 the Package Control repositories were transferred from Will Bond to the company's GitHub organization (see <a href="#pc">Package Control</a>). Build 4213, released on 21 September 2026, replaced the Python 3.8 plugin environment with Python 3.14 and disabled Python 3.3 by default.<sup class="ref"><a href="#r20">20</a></sup></p>
+
+<h2 id="company">Company</h2>
+
+<h3 id="staff">Staff</h3>
+<p>Sublime HQ has remained small. In September 2020 the company had seven employees: six engineers, including Jon Skinner, and one person responsible for sales and non-technical support. In November 2022, the team grew to eight members. As of April 2024, all employees, except one, work from the company's Sydney office. Employees are identified on the Discord server by a "Sublime HQ" role.</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Name</th><th>Period</th><th>Contributions</th></tr></thead>
+<tbody>
+<tr><td>Jon Skinner</td><td class="n">2007–</td><td>Founder and original author of Sublime Text. Designed the core architecture: the C++ application framework and cross-platform UI toolkit, the text buffer (a balanced tree of fixed-size token buffers), the file indexer and the syntax engine with its custom regular expression engine, sregex. Designed the <code>.sublime-syntax</code> format and the JSON-based <code>.sublime-color-scheme</code> format (build 3149), including per-scope selection colors and hashed ("rainbow") highlighting. In Sublime Text 4 he rewrote the auto-complete system and added several plugin APIs: asynchronous and command completions, HTML sheets, region annotations, key bindings on modifier taps, and <code>View.change_id()</code>/<code>transform_region_from()</code> for language servers. Worked on the early Sublime Merge releases, including diff handling, the merge tool and the "Edit Commit" approach to interactive rebase. Rebuilt the build system to run on Linux for Apple Silicon support. In the default packages, he added automatic selector transforms (e.g. <code>storage.type</code> to <code>keyword.declaration</code>), set performance guidance for sregex-compatible syntaxes, and proposed reducing the bundled snippets. Wrote the company blog from 2007 to 2019 and announced most development builds from 2017 to 2021.</td></tr>
+<tr><td>Kari</td><td class="n">2013–</td><td>Sales, licensing, refunds and non-technical support. Author of the 2013 post on upgrade pricing. Works remotely.</td></tr>
+<tr><td>Will Bond</td><td class="n">2016–c. 2021</td><td>Author of Package Control (2011) and operator of <code>packagecontrol.io</code>; before joining, also the author of the SFTP and SVN packages. At Sublime HQ he redesigned the Default theme and created the Adaptive theme (2017), extended the theme engine, and wrote much of the online documentation, including the Sublime Merge documentation. Worked on the ST4 quick panel, minihtml and the text-change events used by LSP clients. In the default packages, he reviewed and merged community contributions, took part in the JavaScript syntax rewrite, maintained the scope naming guidelines and converted macro-generated syntaxes to the ST4 <code>.sublime-syntax</code> inheritance (<code>extends</code>) feature. Co-authored the 3.1 and 3.2 release posts.</td></tr>
+<tr><td>Dylan Johnston</td><td class="n">by 2018–</td><td>Engineer on Sublime Merge since before its public launch. Led the Sublime Merge 2 release and wrote its announcement and a series of Git tips posts. Handles most Sublime Merge bug reports and feature requests on the public issue tracker.</td></tr>
+<tr><td>Benjamin Schaaf</td><td class="n">by 2019–</td><td>Engineer working mainly on platform support: native Wayland support and GTK integration on Linux, Windows input method (IME) support, and the OpenGL hardware-accelerated renderer. Ported ST to Linux ARM64 and Apple Silicon. Rewrote the <code>subl</code> command-line interface to use named pipes on all platforms. Worked on the license system, scope-based code folding, and the Python 3.8, 3.13 and 3.14 plugin environments, including the Python 3.3 phase-out. In the default packages, he improved the D syntax, set up community review of the Packages repository (2021) and developed SBNF, a grammar compiler for syntax definitions. Author of the company's blog posts since 2021; leads the Package Control transition.</td></tr>
+<tr><td>David</td><td class="n">by 2020–</td><td>Engineer on Sublime Merge; worked on its command palette and branch checkout commands.</td></tr>
+<tr><td>Tim</td><td class="n">by 2020–</td><td>Engineer.</td></tr>
+<tr><td>Valerie</td><td class="n">2022–</td><td>Member of the Sublime Text team.</td></tr>
+</tbody></table></div>
+<p class="note">Period start dates marked "by" are the earliest dates at which the person is publicly identified as an employee, not confirmed hiring dates.</p>
+
+<h3 id="business">Business model and licensing</h3>
+<p>Sublime Text can be evaluated without a time limit; an unregistered copy periodically displays a purchase reminder. Until version 4, a license key was tied to a major version, and upgrading from one major version to the next required a paid upgrade.<sup class="ref"><a href="#r5">5</a></sup><sup class="ref"><a href="#r6">6</a></sup> The company has stated that this model required features to be held back for major releases, and that a one-time purchase could not fund ongoing development across the eight years in which version 3 was current.</p>
+<p>Sublime Merge launched in 2018 with a different model, which Sublime Text 4 adopted in 2021: a license is perpetual and includes all updates released within three years of purchase. After that period, builds released within the window remain usable, and newer builds require purchasing an upgrade.<sup class="ref"><a href="#r12">12</a></sup><sup class="ref"><a href="#r17">17</a></sup> Sublime Text 3 licenses bought within three years of the Sublime Text 4 release were treated as valid for Sublime Text 4. At launch, upgrades for older licenses were offered at a reduced price of US$70 for a limited period before returning to US$80. The company sells separate personal and business licenses, and bundles of both products. The company has stated that it does not intend to adopt a subscription model for personal licenses.</p>
+
+<h3 id="comms">Communication practices</h3>
+<p>The company does not publish a roadmap for Sublime Text. The company has explained that a roadmap would amount to a commitment to deliver specific features in a specific order, which it does not wish to make. An exception was a Sublime Merge roadmap post in October 2018, and the Sublime Merge 2 announcement listed planned future work.<sup class="ref"><a href="#r13">13</a></sup><sup class="ref"><a href="#r14">14</a></sup></p>
+<p>Official announcements are made through the blog, which carried two posts between January 2025 and November 2026.<sup class="ref"><a href="#r1">1</a></sup> Development builds, early-access programs and most direct interaction between staff and users take place on the official Discord server and the support forum, with bug reports and feature requests directed to the public GitHub issue trackers. Between 2017 and 2021 Skinner personally announced most development builds on the Discord server.</p>
+
+<h2 id="founder">Views of the founder</h2>
+<p>Jon Skinner has expressed the following views on software design and on Sublime Text in public discussion with users:</p>
+<ul>
+<li><b>Blinking carets</b> waste power, battery life and energy for no benefit, and should be phased out. Sublime Text 4 uses a solid caret by default.</li>
+<li><b>Syntax definition format:</b> he regrets using YAML for <code>.sublime-syntax</code> files. He would prefer a small dedicated format with literal regular expressions and its own syntax highlighting. He considers generic data formats such as JSON, YAML and XML poorly suited to complex definitions, because regular expressions have to be encoded as strings.</li>
+<li><b>Bundled snippets</b> are mostly triggered by accident during auto-complete; he favours removing most of them, though doing so reduces discoverability.</li>
+<li><b>Python</b> is not his preferred language; the Python layer exists for extensibility, while the core is written in C++.</li>
+<li><b>API stability:</b> new APIs should not be added in patch releases. Some early API decisions are mistakes that can no longer be changed without breaking plugins. Backwards compatibility for existing plugins took priority in the move to Sublime Text 4.</li>
+<li><b>Major versions:</b> with licenses no longer tied to major versions, there is no reason for long beta periods like that of Sublime Text 3.</li>
+<li><b>Asynchronous UI:</b> results that change while a user is selecting from them make for a poor interface, so late auto-complete results are discarded instead of reordering a visible list.</li>
+<li><b>Git interfaces:</b> interactive rebase should be offered through direct manipulation of commits, not by recreating the command-line to-do list. Reviewing staged changes before committing is central to the Sublime Merge commit workflow.</li>
+<li><b>Paid customization:</b> restricting visual customization of Sublime Merge, such as the dark theme, to licensed users is reasonable.</li>
+<li><b>Antivirus software</b> often behaves much like malware. It is a frequent cause of bug reports that are not caused by the editor itself.</li>
+<li><b>Platform vendors:</b> Apple's notarization requirements and the Apple Silicon transition imposed significant changes on the company's build process.</li>
+<li><b>Publicity:</b> early development builds were kept within the Discord community, not promoted publicly, while they stabilized.</li>
+</ul>
+
+<h2 id="products">Products</h2>
+
+<h3 id="st">Sublime Text</h3>
+<p>Sublime Text is written in C++ with a custom cross-platform user interface toolkit, and uses Python for plugins and much of its bundled functionality.<sup class="ref"><a href="#r3">3</a></sup> Language support is provided by syntax definitions, originally in the TextMate <code>.tmLanguage</code> format and later in the editor's own YAML-based <code>.sublime-syntax</code> format. These are processed by a custom regular expression engine, with Oniguruma as a fallback. Features introduced over its history include multiple selections, the Goto Anything file and symbol navigator, the command palette, the minimap, distraction-free mode, project-wide symbol indexing, hardware-accelerated rendering and, in version 4, a solid (non-blinking) caret by default, which staff described as a power-saving measure.<sup class="ref"><a href="#r1">1</a></sup><sup class="ref"><a href="#r16">16</a></sup></p>
+<p>Plugins originally ran on Python 3.3, an embedded interpreter retained for backward compatibility. Sublime Text 4 added Python 3.8, with plugins opting in via a <code>.python-version</code> file. Build 4200 began the removal of Python 3.3, and build 4213 replaced 3.8 with 3.14 and disabled 3.3 by default.<sup class="ref"><a href="#r17">17</a></sup><sup class="ref"><a href="#r19">19</a></sup><sup class="ref"><a href="#r20">20</a></sup> The company stated that Python 3.3 could not be built for Apple Silicon, which affected the timing of native macOS ARM support. It also stated that running three Python environments side by side would not be sustainable.</p>
+
+<h3 id="sm">Sublime Merge</h3>
+<p>Sublime Merge is a graphical Git client. It reads repository data with its own implementation, while operations that modify a repository are performed by invoking Git itself.<sup class="ref"><a href="#r12">12</a></sup> It shares the user interface toolkit, text control, file system layer and preferences system with Sublime Text, and the two products are developed in the same internal repository. The evaluation version is fully functional except that it is limited to the light theme.<sup class="ref"><a href="#r12">12</a></sup></p>
+<p>Notable releases include build 1105 (March 2019), which allowed Sublime Merge to be used as a standalone three-way merge tool, and Sublime Merge 2 (May 2020). Sublime Merge 2 added repository tabs, a redesigned commit interface, configurable layouts, OpenGL rendering, commit signing and Git LFS support.<sup class="ref"><a href="#r14">14</a></sup><sup class="ref"><a href="#r15">15</a></sup> The Sublime Merge 2 announcement listed a review workflow, image diffs and plugin support as future work.<sup class="ref"><a href="#r14">14</a></sup> Builds 2125 and 2136 were released in 2026.<sup class="ref"><a href="#r22">22</a></sup></p>
+
+<h2 id="ecosystem">Ecosystem</h2>
+
+<h3 id="packages">Default packages</h3>
+<p>The syntax definitions, settings and supporting files bundled with Sublime Text are developed in the public <code>sublimehq/Packages</code> repository on GitHub, which accepts community contributions. During the Sublime Text 3 development period the bundled language definitions were progressively converted to the <code>.sublime-syntax</code> format and standardized on common scope naming conventions. Sublime Text 4 added syntax engine features such as <code>branch_point</code> backtracking and a version 2 syntax format. In August 2021 the company proposed giving a group of trusted community members write access, with pull requests requiring two approvals; the arrangement was put in place that month. Additions in later builds include a rewritten Lisp syntax (build 4180) and TOML and Zsh syntaxes (build 4200).<sup class="ref"><a href="#r18">18</a></sup><sup class="ref"><a href="#r19">19</a></sup></p>
+<p>A company engineer also developed SBNF, an open-source grammar language that compiles to <code>.sublime-syntax</code> files, first released in February 2020.</p>
+
+<h3 id="pc">Package Control</h3>
+<p>Package Control is the most widely used package manager for Sublime Text. Will Bond created it in 2011 as an independent project and continued to operate it after joining Sublime HQ in 2016.<sup class="ref"><a href="#r8">8</a></sup> It consists of the client package installed in the editor, the <code>packagecontrol.io</code> website and crawler, a signing key for the client, and the default channel repository that lists available packages. Submissions to the default channel are reviewed by volunteers before inclusion. Recurring technical issues included the client's dependence on Python 3.3, which affected TLS support on newer systems; crawler failures caused by GitHub API rate limits; and the absence of a process for removing abandoned packages.</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Date</th><th>Event</th></tr></thead>
+<tbody>
+<tr><td class="n">2011</td><td>Will Bond creates Package Control.</td></tr>
+<tr><td class="n">Jan 2016</td><td>Bond joins Sublime HQ. Package Control remains his personal project.</td></tr>
+<tr><td class="n">Sep 2016</td><td>Sublime Text build 3124 adds a menu command that installs Package Control.<sup class="ref"><a href="#r8">8</a></sup></td></tr>
+<tr><td class="n">c. 2021</td><td>Bond leaves Sublime HQ. The domain, server, signing key and channel repository stay under his ownership.</td></tr>
+<tr><td class="n">2023</td><td>Volunteers develop Package Control 4.0. The client begins shipping an additional channel hosted on GitHub Pages. Server-side support for the 4.0 format cannot be deployed without the owner.</td></tr>
+<tr><td class="n">Jun 2024</td><td>Bond states that Sublime HQ is the only appropriate party to take over the project, for security and trust reasons, and that he has been in contact with the company.</td></tr>
+<tr><td class="n">Nov 2024</td><td><code>packagecontrol.io</code> suffers repeated outages. Bond states that he is working out the details of a transfer with Jon Skinner.</td></tr>
+<tr><td class="n">Mar–Apr 2025</td><td>Packages stop being picked up by the crawler. Bond adjusts the crawler's schedule and rate-limit handling.</td></tr>
+<tr><td class="n">Jun 2025</td><td>Volunteers publish a new crawler that runs on GitHub Actions, and a replacement website, <code>packages.sublimetext.io</code>, launched on 25 June.</td></tr>
+<tr><td class="n">Jul–Aug 2025</td><td>The new channel is offered as an opt-in setting (26 July) and announced more widely (4 August). Sublime HQ states that it intends to host Package Control and make it official.</td></tr>
+<tr><td class="n">8 Aug 2025</td><td>A Package Control client release changes the default channel to the new domain. Bond describes this as a supply-chain security risk, revokes contributor access to the client repository and announces a rollback release. The <code>packagecontrol.io</code> server is upgraded to support the 4.0 format.</td></tr>
+<tr><td class="n">Nov 2025</td><td>Sublime HQ states that it favours hosting the new website under an official domain, with redirects from <code>packagecontrol.io</code>.</td></tr>
+<tr><td class="n">Dec 2025</td><td>The Package Control repositories are transferred to the <code>sublimehq</code> GitHub organization.</td></tr>
+<tr><td class="n">Jan–Feb 2026</td><td>Community documentation is updated to reflect the transfer. Sublime HQ describes Package Control as first-party. It sets its priorities as completing the Python 3.14 release and then the Package Control infrastructure.</td></tr>
+</tbody></table></div>
+<p>The company has stated that Package Control will remain open source with community pull requests reviewed, and that <code>packages.sublimetext.com</code> is intended as the long-term official location for packages.</p>
+
+<h3 id="lsp">Language Server Protocol support</h3>
+<p>The Language Server Protocol (LSP) lets an editor obtain language features such as completions, diagnostics, go-to-definition, find references, renaming, formatting, code actions, hover documentation and inlay hints from an external language server. Sublime Text does not include a built-in LSP client. In July 2020 the company stated that it had considered native support but decided instead to extend the plugin API, because many language servers require server-specific workarounds. As a result, LSP-based language intelligence in Sublime Text is provided entirely by community-maintained packages. The project's Discord channel, opened in November 2019, became one of the most active channels on the server.</p>
+<p><b>History.</b> The <code>LSP</code> package was created by the GitHub user <b>tomv564</b> while Sublime Text 3 was current. The ST3 API limited it: there was no support for asynchronous completions or for applying edits computed by a server against an earlier version of a document. On 21 December 2019, with version 0.9.3, the project moved to the <code>sublimelsp</code> GitHub organization, and maintenance passed to a group of volunteers. Sublime Text 4 development builds added APIs that the maintainers had asked for and tested: asynchronous completion lists, text-change events for incremental document synchronization, <code>View.change_id()</code> and <code>View.transform_region_from()</code> (build 4069, March 2020), and completion flags such as <code>COMPLETION_FLAG_KEEP_PREFIX</code> and <code>INHIBIT_REORDER</code>. In March 2020 the maintainers created the <code>lsp_utils</code> library, which downloads and manages language servers (for example via Node.js), so that individual servers could be shipped as preconfigured <code>LSP-*</code> packages. In 2020 the package stopped adding features for Sublime Text 3, and version 1.0 targeted Sublime Text 4. By 2024 more than 60 <code>LSP-*</code> packages had been published, covering languages including TypeScript, Python, PHP, Rust, Go, C/C++, Java, XML, JSON, Vue, CSS, HTML and ESLint. Later work tracked new protocol versions (3.16 and 3.17, including semantic tokens and inlay hints) and the migration to the Python 3.13 and 3.14 plugin environments.</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Contributor</th><th>Contributions</th></tr></thead>
+<tbody>
+<tr><td><b>tomv564</b></td><td>Created the <code>LSP</code> package and early server integrations such as <code>lsp-tsserver</code>.</td></tr>
+<tr><td><b>rwols</b></td><td>Lead maintainer from 2019 to 2021. Added the server log panel. Worked with Sublime HQ on the ST4 completion and edit APIs and led the move to ST4-only releases. Maintained the Java (<code>LSP-jdtls</code>) and XML (<code>LSP-lemminx</code>) packages.</td></tr>
+<tr><td><b>rchl</b> (rafal)</td><td>Created <code>lsp_utils</code> and many <code>LSP-*</code> packages, including LSP-json, LSP-eslint, LSP-vue, LSP-typescript and LSP-stylelint. Built an LSP log parser. The most active maintainer from 2022 onward.</td></tr>
+<tr><td><b>predragnikolic</b></td><td>Long-term maintainer of the core package. Author of PHP support (<code>LSP-intelephense</code>) and numerous fixes to completion handling.</td></tr>
+<tr><td><b>jfcherng</b></td><td>Maintainer of server packages such as LSP-html and LSP-css, including prebuilt server distributions; handles user support.</td></tr>
+<tr><td><b>Terminal</b> (terminalfi)</td><td>Created LSP-copilot and contributed upstream fixes to language servers, such as removing an editor-specific workaround from Go's <code>gopls</code>.</td></tr>
+<tr><td><b>DeathAxe82</b></td><td>Wrote the initial XML language server integration that became LSP-lemminx.</td></tr>
+</tbody></table></div>
+
+<h2 id="volunteers">Community volunteers</h2>
+<p>Volunteers contribute much of the ecosystem around Sublime Text: bundled language definitions, the package manager, language tooling, documentation and user support. The following contributors, identified by their usernames, are among the most active.</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Username</th><th>Area</th><th>Contributions</th></tr></thead>
+<tbody>
+<tr><td><b>OdatNurd</b></td><td>Support, education</td><td>The most active participant in the community channels. Produces video tutorials on Sublime Text and plugin development. Author of OverrideAudit, a tool for tracking user overrides of bundled package files.</td></tr>
+<tr><td><b>FichteFoll</b></td><td>Moderation, documentation, packages</td><td>Community moderator. Author of PackageDev, a toolkit for package and syntax development. Maintains the community documentation site (<code>docs.sublimetext.io</code>) and the community IRC channels. Contributor to Package Control and the default packages.</td></tr>
+<tr><td><b>DeathAxe82</b></td><td>Default packages, Package Control</td><td>Top contributor to the <code>sublimehq/Packages</code> repository, including syntax rewrites such as Lisp and naming standards for metadata files. Main developer of Package Control 4.0. Maintains the UnitTesting framework and MarkdownEditing.</td></tr>
+<tr><td><b>keith_hall</b></td><td>Default packages</td><td>A leading syntax contributor during the 2017–2018 migration to <code>.sublime-syntax</code>, with a focus on regular expression correctness and performance.</td></tr>
+<tr><td><b>Thom1729</b></td><td>Default packages</td><td>Led the rewrite of the JavaScript syntax definition. Author of YAMLMacros and other syntax development tools.</td></tr>
+<tr><td><b>Mitranim</b></td><td>Default packages</td><td>Reworked the Go syntax definition and contributed to other syntaxes.</td></tr>
+<tr><td><b>michaelblyons</b></td><td>Default packages, documentation</td><td>Syntax contributor and reviewer. Maintains a Dash/Zeal docset of the official documentation.</td></tr>
+<tr><td><b>camila314</b></td><td>Default packages</td><td>Contributed C++20 and later language support to the C++ syntax (2025).</td></tr>
+<tr><td><b>rwols</b>, <b>rchl</b>, <b>predragnikolic</b>, <b>jfcherng</b>, <b>tomv564</b></td><td>LSP</td><td>Maintainers of the LSP client and server packages (see <a href="#lsp">Language Server Protocol support</a>).</td></tr>
+<tr><td><b>braver</b></td><td>Package review, Package Control</td><td>Reviews submissions to the Package Control default channel. Built the <code>packages.sublimetext.io</code> website.</td></tr>
+<tr><td><b>herr.kaste</b></td><td>Packages, Package Control</td><td>Maintainer of GitSavvy, a Git integration package, and contributor to SublimeLinter. Author of the new Package Control crawler (thecrawl).</td></tr>
+<tr><td><b>Terminal</b> (terminalfi)</td><td>LSP, infrastructure</td><td>Author of LSP-copilot. Registered and administered the <code>sublimetext.io</code> community domain. Contributor to the community documentation.</td></tr>
+<tr><td><b>facelessuser</b></td><td>Packages</td><td>Author of widely used libraries and plugins, including mdpopups (Markdown popups used by many packages), BracketHighlighter and ColorHelper.</td></tr>
+<tr><td><b>randy3k</b></td><td>Packages</td><td>Author of Terminus, a terminal emulator package for Sublime Text, and early author of the UnitTesting framework.</td></tr>
+<tr><td><b>daveleroy</b> (David)</td><td>Packages</td><td>Author of Debugger, a graphical debugging package based on the Debug Adapter Protocol.</td></tr>
+</tbody></table></div>
+
+<h2 id="source">Source code availability</h2>
+<p>Sublime Text and Sublime Merge are proprietary, and the company has stated that it has no plans to release their source code. In a December 2020 forum reply, a company employee wrote that doing so would remove the company's only viable business model. The reply also stated that support-based revenue models are not suited to offline developer tools, and that the codebase's complexity limits the benefit of outside contributions.<sup class="ref"><a href="#r21">21</a></sup> In 2025 the company further stated that public source code would allow redistribution by Linux distributions and in-house builds by large organizations, and that a source-available license would be difficult to enforce internationally. The official documentation is maintained in the same private repository as the application; the API reference is generated from the bundled <code>sublime.py</code> and <code>sublime_plugin.py</code> modules. The default packages, Package Control and a community-maintained documentation site are open source.</p>
+
+<h2 id="community">Community relations</h2>
+<p>The company's main points of contact with users are the support forum, the official Discord server and the public GitHub issue trackers for Sublime Text and Sublime Merge. Company employees answer questions in these channels; feature requests and bug reports are directed to the issue trackers, which the company uses to track ongoing work.<sup class="ref"><a href="#r21">21</a></sup> The table below summarizes frequently raised concerns and the responses given by the company or its employees.</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Concern</th><th>Response</th></tr></thead>
+<tbody>
+<tr><td>No public roadmap</td><td>A roadmap would amount to a promise to deliver features in a particular order, which the company does not want to make; a list of planned features would also do little to promote the product. Editors with public roadmaps are typically funded by large companies with marketing budgets.</td></tr>
+<tr><td>Infrequent announcements and limited social media presence</td><td>Release announcements are published on the blog, and employees answer questions on the forum and Discord, sometimes outside working hours. A company employee acknowledged that the company's plans for Package Control should have been communicated earlier.</td></tr>
+<tr><td>Long gaps between releases</td><td>The 2021 licensing change was intended to let features ship when ready instead of being held for a major version. Development builds are released more often than stable builds. Any future major version number would mainly mark a release.</td></tr>
+<tr><td>Concern that development has stopped</td><td>The company is self-sufficient, has no plans to stop development and continues to grow and release products.</td></tr>
+<tr><td>License cost, upgrades and expiry</td><td>Licenses are perpetual: builds released within three years of purchase remain usable indefinitely, and a grace period applies after expiry. ST3 licenses bought within three years of the ST4 release were honoured, and returning customers were offered a discounted upgrade. Subscriptions would hurt sales and are not planned.</td></tr>
+<tr><td>Unlicensed use</td><td>The company does not pursue legal action against unlicensed users and does not use restrictive DRM; it relies on users to pay for software they find valuable. License checks fail silently if the license server cannot be reached.</td></tr>
+<tr><td>Privacy and telemetry</td><td>The products require no accounts and include no metrics or tracking. The email address given at purchase is used only to deliver the license key.<sup class="ref"><a href="#r12">12</a></sup></td></tr>
+<tr><td>Open-sourcing the editor</td><td>Not planned, because it would undermine the only viable business model (see <a href="#source">Source code availability</a>).<sup class="ref"><a href="#r21">21</a></sup></td></tr>
+<tr><td>Printing</td><td>A fully native printing dialog on all platforms is not planned. Sublime Text 4 added printing through an HTML export opened in the web browser.</td></tr>
+<tr><td>Built-in terminal</td><td>A full terminal emulator would take a large share of the team's time, would not translate across platforms, and is better served by dedicated applications or plugins such as Terminus.</td></tr>
+<tr><td>Built-in LSP client</td><td>Language servers need server-specific workarounds, so the company extended the plugin API to support community LSP packages instead.</td></tr>
+<tr><td>Outdated Python plugin environment</td><td>Python 3.3 was kept for backward compatibility. The company announced a phase-out schedule in 2025 and moved to Python 3.14 in 2026, with a roughly five-year support lifecycle for each Python version.<sup class="ref"><a href="#r19">19</a></sup><sup class="ref"><a href="#r20">20</a></sup></td></tr>
+<tr><td>Plugin isolation and sandboxing</td><td>Isolating plugins would require a separate process per plugin, with significant inter-process overhead, and on macOS would effectively require a virtual machine per plugin.</td></tr>
+<tr><td>Mobile and tablet versions</td><td>Platform restrictions on iOS and iPadOS prevent applications that run plugins. A keyboard-focused interface would also translate poorly to touch input.</td></tr>
+<tr><td>Licensed-only customization in Sublime Merge</td><td>Restricting visual customization, such as the dark theme, to licensed users is an intentional part of the evaluation model.<sup class="ref"><a href="#r12">12</a></sup></td></tr>
+<tr><td>State of Package Control</td><td>The company took ownership of Package Control in December 2025 (see <a href="#pc">Package Control</a>).</td></tr>
+</tbody></table></div>
+
+<h2 id="releases">Release history</h2>
+<div class="tbl"><table class="data">
+<thead><tr><th>Product</th><th>Version / build</th><th>Date</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Sublime Text</td><td>1.0</td><td class="n">18 Jan 2008</td><td>Windows only</td></tr>
+<tr><td>Sublime Text</td><td>2.0</td><td class="n">26 Jun 2012</td><td>Windows, macOS, Linux</td></tr>
+<tr><td>Sublime Text</td><td>3 beta</td><td class="n">29 Jan 2013</td><td>Python 3.3 plugin API; price raised to US$70</td></tr>
+<tr><td>Sublime Text</td><td>3.0 (3143)</td><td class="n">13 Sep 2017</td><td>End of the ST3 beta</td></tr>
+<tr><td>Sublime Text</td><td>3.1</td><td class="n">7 May 2018</td><td></td></tr>
+<tr><td>Sublime Merge</td><td>Initial release</td><td class="n">20 Sep 2018</td><td>Perpetual license with 3 years of updates</td></tr>
+<tr><td>Sublime Text</td><td>3.2</td><td class="n">13 Mar 2019</td><td>Git integration, incremental diff</td></tr>
+<tr><td>Sublime Text</td><td>Build 4050 (dev)</td><td class="n">12 Nov 2019</td><td>First ST4 build, distributed via Discord</td></tr>
+<tr><td>Sublime Merge</td><td>2</td><td class="n">26 May 2020</td><td>Tabs, layouts, OpenGL rendering</td></tr>
+<tr><td>Sublime Text</td><td>4 (4107)</td><td class="n">21 May 2021</td><td>GPU rendering, Python 3.8, Apple Silicon; new licensing</td></tr>
+<tr><td>Sublime Text</td><td>4142</td><td class="n">10 Nov 2022</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4151</td><td class="n">2 Aug 2023</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4166</td><td class="n">24 Nov 2023</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4180</td><td class="n">12 Aug 2024</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4189</td><td class="n">21 Dec 2024</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4200</td><td class="n">21 May 2025</td><td>Python 3.3 phase-out announced; macOS 10.13+, Windows 10+</td></tr>
+<tr><td>Sublime Merge</td><td>2125</td><td class="n">13 Apr 2026</td><td></td></tr>
+<tr><td>Sublime Text</td><td>4213</td><td class="n">21 Sep 2026</td><td>Python 3.14; Python 3.3 disabled by default</td></tr>
+</tbody></table></div>
+
+<h2 id="references">References</h2>
+<ol class="refs">
+<li id="r1">Sublime HQ. <a href="https://www.sublimetext.com/blog/">Sublime HQ Blog</a> (index of posts, 2007–2026). Including Skinner, J. <a href="https://www.sublimetext.com/blog/articles/introduction">"Introduction"</a>, 12 Nov 2007.</li>
+<li id="r2">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/one-point-oh">"1.0!"</a>. Sublime HQ Blog, 18 Jan 2008.</li>
+<li id="r3">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/choosing-an-extension-language">"Choosing an Extension Language"</a>, 12 Apr 2008; <a href="https://www.sublimetext.com/blog/articles/extending-with-python">"Python as an extension language"</a>, 8 Apr 2008.</li>
+<li id="r4">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-2-public-alpha">"Sublime Text 2: Public Alpha"</a>, 28 Jan 2011; <a href="https://www.sublimetext.com/blog/articles/sublime-text-2-0-released">"Sublime Text 2.0 Released"</a>, 26 Jun 2012.</li>
+<li id="r5">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-beta">"Sublime Text 3 Beta"</a>. Sublime HQ Blog, 29 Jan 2013.</li>
+<li id="r6">Kari. <a href="https://www.sublimetext.com/blog/articles/upgrades">"Upgrades"</a>. Sublime HQ Blog, 15 Feb 2013.</li>
+<li id="r7">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-public-beta">"Sublime Text 3 Public Beta"</a>. Sublime HQ Blog, 28 Jun 2013.</li>
+<li id="r8">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-build-3103">"Sublime Text 3 Build 3103"</a>, 9 Feb 2016; <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-build-3124">"Sublime Text 3 Build 3124"</a>, 22 Sep 2016.</li>
+<li id="r9">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-point-0">"Sublime Text 3.0"</a>. Sublime HQ Blog, 13 Sep 2017.</li>
+<li id="r10">Bond, W. <a href="https://www.sublimetext.com/blog/articles/the-adaptive-theme">"The Adaptive Theme"</a>, 6 Oct 2017; Bond, W. and Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-point-1">"Sublime Text 3.1 Released"</a>, 7 May 2018.</li>
+<li id="r11">Bond, W. <a href="https://www.sublimetext.com/blog/articles/sublime-text-3-point-2">"Sublime Text 3.2"</a>. Sublime HQ Blog, 13 Mar 2019.</li>
+<li id="r12">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-merge">"Sublime Merge – Git, Done Sublime"</a>. Sublime HQ Blog, 20 Sep 2018.</li>
+<li id="r13">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-merge-roadmap">"Sublime Merge Roadmap"</a>. Sublime HQ Blog, 2 Oct 2018.</li>
+<li id="r14">Johnston, D. <a href="https://www.sublimetext.com/blog/articles/sublime-merge-2-announcement">"Sublime Merge 2 – Features and Flexibility"</a>. Sublime HQ Blog, 26 May 2020.</li>
+<li id="r15">Skinner, J. <a href="https://www.sublimetext.com/blog/articles/sublime-merge-build-1107">"Sublime Merge Build 1107"</a>. Sublime HQ Blog, 12 Mar 2019.</li>
+<li id="r16">Schaaf, B. <a href="https://www.sublimetext.com/blog/articles/hardware-accelerated-rendering">"Faster Rendering Using Hardware Acceleration"</a>. Sublime HQ Blog, 28 Apr 2021.</li>
+<li id="r17">Schaaf, B. <a href="https://www.sublimetext.com/blog/articles/sublime-text-4">"Sublime Text 4"</a>. Sublime HQ Blog, 21 May 2021.</li>
+<li id="r18">Schaaf, B. Build announcements: <a href="https://www.sublimetext.com/blog/articles/sublime-text-4142">4142</a> (10 Nov 2022), <a href="https://www.sublimetext.com/blog/articles/sublime-text-4151">4151</a> (2 Aug 2023), <a href="https://www.sublimetext.com/blog/articles/sublime-text-4166">4166</a> (24 Nov 2023), <a href="https://www.sublimetext.com/blog/articles/sublime-text-4180">4180</a> (12 Aug 2024), <a href="https://www.sublimetext.com/blog/articles/sublime-text-4189">4189</a> (21 Dec 2024).</li>
+<li id="r19">Schaaf, B. <a href="https://www.sublimetext.com/blog/articles/sublime-text-4200">"Sublime Text Build 4200 and Future Plugin Changes"</a>. Sublime HQ Blog, 21 May 2025.</li>
+<li id="r20">Schaaf, B. <a href="https://www.sublimetext.com/blog/articles/sublime-text-4213">"Sublime Text Build 4213"</a>. Sublime HQ Blog, 21 Sep 2026.</li>
+<li id="r21"><a href="https://forum.sublimetext.com/t/make-sublime-text-open-source/55410">"Make Sublime Text Open Source"</a>. Sublime Forum, thread started 29 Dec 2020, with replies by Benjamin Schaaf.</li>
+<li id="r22"><a href="https://forum.sublimetext.com/c/sublime-merge">Sublime Merge category</a>. Sublime Forum, accessed November 2026.</li>
+<li id="r23">Sublime Text official Discord server. Statements by Sublime HQ staff and project maintainers.</li>
+</ol>
+</article>
+<footer>Sublime Text and Sublime Merge are products of Sublime HQ Pty Ltd. This article is independent and not affiliated with Sublime HQ.</footer>
+</div>
+</body>
+</html>
